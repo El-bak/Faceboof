@@ -1,0 +1,250 @@
+body
+{
+    text-align: center;
+    width: 100%; /*width = largeur*/
+    margin: 0 auto; /*margin = la marge*/
+    padding: 0px; /*padding = espacement*/
+    font-family: "Lucida grande",tahoma,verdana,arial,sans-serif; /*C'est quoi cela et sa sera à quoi*/
+    background: Linear-gradient (white,D3D8E8);
+}
+#header_wrapper
+{
+    width: 100%;
+    min-width: 980px; /*min-width = largeur minimale*/
+    background-color: #4c66a4;
+}
+#header
+{
+    width:980px;
+    margin:0px auto;
+    padding: 0px;
+    height: 85px;
+}
+#header li
+{
+    list-style-type:none; /*list-style-type = type de liste*/
+    float: left; /*float = flottant*/
+    text-align: left; /*text-align = Alignement horizental */
+    color: white;
+}
+#header #sitename
+{
+    margin-top: 25px;
+}
+#header #sitename a
+{
+    color: white;
+    text-decoration:none;
+    font-size: 30px;
+    font-weight: 900;
+}
+#header form
+{
+    margin-top: 15px;
+    float: right;
+}
+#header form li
+{
+    font-size: 13px;
+    margin-left: 15px;
+}
+#header form li a
+{
+    color: #A9BCF5;
+    text-decoration: none;
+}
+#header form input[type="text"]
+{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 150px;
+    border: 1px solid #08298a;
+    height: 25px;
+    padding-left: 3px;
+}
+#header form input[type="password"] /*cette partie sert à quoi*/
+{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 150px;
+    border: 1px solid #08298A;
+    height: 25px;
+    padding-left: 3px;
+}
+#header form input[type="submit"] /*cette parte sert à quoi*/
+{
+    height: 25px;
+    margin-top: 20px;
+    background-color: #084B8A;
+    color: white;
+    border: 1px solid #08298A;
+}
+#wrapper
+{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    width: 980px;
+}
+#wrapper div
+{
+    float: left;
+    font-family: helvetica, arial, sans-serif;
+}
+#wrapper #bombom p
+{
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    margin: 0px;
+    color: #0e385f;
+}
+#wrapper #Genpachi
+{
+    margin-top: 10px;
+    width: 390px;
+    text-align: left;
+}
+#wrapper #Genpachi h1
+{
+    margin: 0px;
+    font-size: 37px;
+    color: #2E2E2E;
+}
+#wrapper #Genpachi p
+{
+    margin: 0px;
+    font-size: 37px;
+    color: #2E2E2E;
+}
+#wrapper #Genpachi li
+{
+    list-style: none;
+    margin-top: 10px;
+}
+#wrapper #Genpachi li #firstname
+{
+    width: 49%;
+}
+#wrapper #Genpachi li #surname
+{
+    margin-left: 2%;
+    width: 49%;
+}
+#wrapper #Genpachi li input[type="text"]
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #BDBDBD;
+}
+#wrapper #Genpachi li input[type="pasword"]
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px soid #BDBDBD;
+}
+#wrapper #Genpachi li select
+{
+    padding: 4px;
+    float: left;
+}
+#wrapper #Genpachi li a
+{
+    margin-left: 10px;
+    width: 150px;
+    color: #045FB4;
+    text-decoration: none;
+    font-size: 11px;
+    display: inline-table;
+    vertical-align: middle;
+    line-height: 15px;
+}
+#wrapper #Genpachi li
+{
+    color: #2E2E2E;
+    font-size: 18px;
+}
+#wrapper #Genpachi #terms a
+{
+    display: inline;
+    margin: 0px;
+}
+#wrapper #Genpachi li input[type="submit"]
+{
+    width: 205;
+    height: 45px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69e74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+#wrapper #Genpachi #create_page
+{
+    color: #424242;
+    margin: 0px;
+    font-size: 13px;
+}
+#wrapper #Gnepachi #create_page a
+{
+    display: inline;
+    margin: 0px;
+    font-size: 13px;
+}
+#footer_wrapper
+{
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    min-width: 995px;
+    background-color: white;
+    text-align: left;
+}
+#footer
+{
+    width: 980px;
+    margin: 0ox auto;
+    padding: 0px;
+    border-bottom: 1px solid #E6E6E6;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color#848484;
+}
+#footer a
+{
+    color: #365899;
+    display: inline;
+    margin-left: 10px;
+    text-decoration: none;
+}
+#footer a:hover
+{
+    text-decoration: underline;
+}
+#Gentai
+{
+    width: 980px;
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 12px;
+    color: #848484;
+}0                                                                                                                                                                              
